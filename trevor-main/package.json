@@ -1,0 +1,27 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "Nodejs Slack bot  on the microservice architecture",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon start",
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forevergareth/trevor-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forevergareth/trevor-bot/issues"
+  },
+  "homepage": "https://github.com/forevergareth/trevor-bot#readme",
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "superagent": "^3.8.3"
+  }
+}
